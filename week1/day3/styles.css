@@ -1,0 +1,43 @@
+/* 
+ CSS - Cascading Style Sheets
+*/
+
+/*
+    selector {
+        property: 'value'; 
+        propery: 'value';
+    }
+*/
+
+/*
+*{
+    font-size: 120px;
+}
+*/
+
+body{
+ /* fills the background color */ 
+}
+
+p {
+    color: blue; /* changes the text color */ 
+}
+
+.ironhack-paragraph { /* in CSS, classes are referred with a dot first */
+    color: green;
+}
+
+#special-paragraph { /* in CSS, ids are referred with a # first. */
+    font-size: 70px;
+}
+
+#cover-box{
+    height: 50px; 
+    width: 100px; 
+    background-color: #fc9e01; 
+    /* margin: 10px;*/
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
