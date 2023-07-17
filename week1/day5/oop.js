@@ -1,5 +1,4 @@
-// OOP
-// Object Oriented Programming 
+// OOP - Object Oriented Programming 
 // Programming Paradigm based on objects
 
 // Monopoly Example 
