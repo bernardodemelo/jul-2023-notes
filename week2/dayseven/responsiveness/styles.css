@@ -1,0 +1,36 @@
+/* 
+General Devices Viewport Widths
+
+Mobile: 320px - 767px;
+Tablet: 768px - 1023px; 
+Laptop: 1024px - Infinity;
+*/
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 767px){
+    .responsive-div{
+        background-color: green; 
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .responsive-div{
+        background-color: yellow; 
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1024px){
+    .responsive-div{
+        background-color: red; 
+        height: 500px; 
+        width: 500px;
+    }
+}
+
+

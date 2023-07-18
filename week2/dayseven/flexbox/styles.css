@@ -1,0 +1,39 @@
+/* Basic Styling */
+
+.first-div {
+    height: 150px; 
+    width: 150px; 
+    background-color: red; 
+}
+
+.second-div {
+    height: 150px; 
+    width: 150px; 
+    background-color: orange; 
+}
+
+.third-div {
+    height: 150px; 
+    width: 150px; 
+    background-color: tan; 
+}
+
+/* Flexbox */
+
+.main-section{
+    width: 100%; 
+    height: 1000px; 
+    display: flex;
+    /* flex-direction: column, column-reverse, row, row-reverse */
+    flex-direction: row;
+    
+    /* Justify-Content: arranges elements horizontally */
+    justify-content: space-around; 
+
+    /* Align-Items: arranges elements vertically */
+
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+

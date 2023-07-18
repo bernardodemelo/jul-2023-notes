@@ -1,0 +1,49 @@
+p {
+    color: green;
+}
+/* 
+class example
+.my-class {
+    color: green;
+} 
+*/
+
+/* 
+id example
+#my-id {
+    color: green;
+} 
+*/
+
+/* Direct Descendants */
+#menu > li {
+    color: blue;
+}
+
+ /* #menu > h1 {
+    font-size: 14px;
+} */
+
+ul #first-element{
+    color: orange;
+}
+
+/* Descendant Selector (the h3 that is descendant of #menu ) */
+#menu h3{
+    color: green;
+}
+
+/* Selecting Siblings */
+#first-element + li {
+    color: yellow;
+}
+
+/* Multiple Selection */
+h1, a {
+    font-size: 40px;
+}
+
+/* Selecting via href */
+a[href="https://youtube.com"]{
+    color:red; 
+}
