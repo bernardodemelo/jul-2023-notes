@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.div-search-beers{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-search-beers label {
+    font-size: 4rem;
+}
+
+.div-search-beers input {
+    height: 2rem; 
+    width: 32rem;
+}
+
+.div-search-beers button {
+    padding: 0.5rem 2rem; 
+    background-color: rgb(251, 251, 251);
+    border: none;
+    cursor: pointer;
+}
+
+/* Searched Beers */
+.div-all-searched-beers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+.searched-beer {
+    width: 30%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.searched-beer-img{
+    width: 250px; 
+    height: 700px;
+}
+
+.searched-beer-a{
+    font-size: 2rem;
+    margin-top: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+/* Specific Beer */
+.div-specific-beer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+}
+
+.div-specific-beer p {
+    font-size: 2rem;
+    margin-top: 5%;
+}

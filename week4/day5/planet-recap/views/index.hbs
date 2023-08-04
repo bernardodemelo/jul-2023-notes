@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Planets</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+<div class="div-background-planets">
+<h1 id="heading-planets">🪐 Planets MVC Recap 🪐</h1>
+<section class="hero is-success">
+  <a href="/list-planets"> 
+  <div class="hero-body">
+    <p class="title">
+      Planets Page
+    </p>
+  </div>
+  </a>
+</section>
+<section class="hero is-warning">
+ <form action="/create-planets" method="post">
+  <div class="hero-body">
+    <button class="button-submit-planets" type="submit">
+    <p class="title">
+     Create All Planets
+    </p>
+    </button>
+  </div>
+ </form>
+</section>
+<section class="hero is-danger">
+  <form action="/delete-planets" method="post">
+  <div class="hero-body">
+    <button class="button-submit-planets" type="submit">
+    <p class="title">
+     Delete All Planets
+    </p>
+    </button>
+  </div>
+ </form>
+</section>
+</div>
+</body>
+</html>

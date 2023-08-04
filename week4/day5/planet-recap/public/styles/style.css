@@ -1,0 +1,47 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.div-background-planets{
+    background-color: rgb(247, 247, 243);
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+
+}
+#heading-planets{
+    font-size: 4rem; 
+    color: rgb(42, 42, 42); 
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+.button-submit-planets{
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+}
+
+/* Planets CSS */
+.div-background-list-planets{
+    background-color: rgb(247, 247, 243);
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.div-planet-single-list{
+    width: 30%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planet-img{
+    width: 300px; 
+    height: 300px;
+}
